@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5e59c2ae83171210adb71ed6feaad3b9" label="Agenda" max_length="40" name="x_1543710_traini_0_agenda" type="collection">
+        <element default="0" label="Capacity" max_length="40" name="capacity" type="integer"/>
+        <element display="true" label="Name and Date" max_length="250" name="name_and_date" type="string"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user_grmember" reference_qual="group=current.instructor_group" reference_qual_condition="group=current.instructor_group" type="reference"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Course" max_length="32" name="course" reference="x_1543710_traini_0_course" type="reference"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+        <index name="index2">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>
