@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a66cf6a835b1210adb71ed6feaad3e7" label="x_1543710_traini_0_m2m_Courses_Users_Courses" max_length="40" name="x_1543710_traini_0_m2m_x_1543710_tr_sys_user" type="collection">
+        <element attributes="encode_utf8=false" label="Users_Courses" max_length="32" name="instructors" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Courses" max_length="32" name="x_1543710_traini_0_course" reference="x_1543710_traini_0_course" type="reference"/>
+        <index name="index">
+            <element name="instructors"/>
+        </index>
+        <index name="index2">
+            <element name="x_1543710_traini_0_course"/>
+        </index>
+    </element>
+</database>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="256acaee83171210adb71ed6feaad3d2" extends="task" label="Registration" max_length="40" name="x_1543710_traini_0_registration" type="collection">
         <element label="Course" max_length="32" name="course" reference="x_1543710_traini_0_course" type="reference"/>
+        <element label="Name and Date" max_length="250" name="name_and_date" type="string"/>
         <element label="Agenda" max_length="40" name="agenda" reference="x_1543710_traini_0_agenda" type="reference"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
     </element>
 </database>

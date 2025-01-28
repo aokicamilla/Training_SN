@@ -14,20 +14,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-27 20:07:53</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 20:07:53</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a44022ea83971210adb71ed6feaad38c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1543710_traini_0_agenda" name="x_1543710_traini_0_agenda" sys_domain="global" view="Default view">a44022ea83971210adb71ed6feaad362</sys_ui_form>
-            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1543710_traini_0_agenda" sys_domain="global" view="Default view">e44022ea83971210adb71ed6feaad361</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 20:07:53</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1543710_traini_0_agenda</name>
             <roles/>
