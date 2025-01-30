@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Course</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    // Obter os valores dos campos 'course' e 'date' do formulário
+    var course = g_form.getValue('course');  // Substitua 'course' pelo nome real do campo
+    var date = g_form.getValue('date');  // Substitua 'date' pelo nome real do campo
+
+    // Criar um GlideAjax para chamar o Script Include
+    var ga = new GlideAjax('CheckDuplicateAgenda'); // Nome do Script Include
+    ga.addParam('sys_id', 'checkDuplicate'); // Nome do método do Script Include
+    ga.addParam('course', course);  // Adiciona 'course' como parâmetro
+    ga.addParam('date', date);  // Adiciona 'date' como parâmetro
+
+    // Fazer a chamada assíncrona ao Script Include
+    ga.getXMLAnswer(function(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        
+        // Verificar se existe um duplicado
+        if (answer == 'true') {
+            g_form.addErrorMessage('A record with the same Course and Date already exists.');
+            return false; // Impede o envio do formulário
+        }
+
+        return true; // Permite o envio do formulário
+    });
+    
+    // Impede a submissão até que a verificação assíncrona seja concluída
+    return false;
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 15:35:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a01ae2fe839b5210adb71ed6feaad335</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Validate Course</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_update_name>sys_script_client_a01ae2fe839b5210adb71ed6feaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 16:43:23</sys_updated_on>
+        <table>x_1543710_traini_0_agenda</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</application>
+        <file_path/>
+        <instance_id>7b9c9ce41b1d8e50168f4089bd4bcb3a</instance_id>
+        <instance_name>dev251162</instance_name>
+        <name>sys_script_client_a01ae2fe839b5210adb71ed6feaad335</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;date&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate Course&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    // Obter os valores dos campos 'course' e 'date' do formulário
+    var course = g_form.getValue('course');  // Substitua 'course' pelo nome real do campo
+    var date = g_form.getValue('date');  // Substitua 'date' pelo nome real do campo
+
+    // Criar um GlideAjax para chamar o Script Include
+    var ga = new GlideAjax('CheckDuplicateAgenda'); // Nome do Script Include
+    ga.addParam('sys_id', 'checkDuplicate'); // Nome do método do Script Include
+    ga.addParam('course', course);  // Adiciona 'course' como parâmetro
+    ga.addParam('date', date);  // Adiciona 'date' como parâmetro
+
+    // Fazer a chamada assíncrona ao Script Include
+    ga.getXMLAnswer(function(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        
+        // Verificar se existe um duplicado
+        if (answer == 'true') {
+            g_form.addErrorMessage('A record with the same Course and Date already exists.');
+            return false; // Impede o envio do formulário
+        }
+
+        return true; // Permite o envio do formulário
+    });
+    
+    // Impede a submissão até que a verificação assíncrona seja concluída
+    return false;
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-28 15:35:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a01ae2fe839b5210adb71ed6feaad335&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Course&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Training System" source="x_1543710_traini_0"&gt;feb68eaa83171210adb71ed6feaad3e4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training System"&gt;feb68eaa83171210adb71ed6feaad3e4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a01ae2fe839b5210adb71ed6feaad335&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-28 16:43:23&lt;/sys_updated_on&gt;&lt;table&gt;x_1543710_traini_0_agenda&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2021272837</payload_hash>
+        <record_name>Validate Course</record_name>
+        <reverted_from/>
+        <source>bd75eaee83971210adb71ed6feaad31a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 16:43:23</sys_created_on>
+        <sys_id>260bf6f2831f5210adb71ed6feaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194adcbd08d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 16:43:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6a0bf6f2891f521014dfb5795995c95f</update_guid>
+        <update_guid_history>6a0bf6f2891f521014dfb5795995c95f:-2021272837,f14c6e7297db52104191203b9a24a358:-1069870872,28abe632bedb5210ec6c8c4922c92f02:279636287,cb6b6aba889b52100f0603ff041df41f:1011668765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 16:44:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1e57980b8961403a8dea4a5de4550684</sys_id>
+        <sys_metadata>a01ae2fe839b5210adb71ed6feaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Course</sys_name>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_parent display_value="Agenda">5e59c2ae83171210adb71ed6feaad3b9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_scope_delete display_value="">3870fcc8dd2b4d128e2fa67810bb0fe1</sys_scope_delete>
+        <sys_update_name>sys_script_client_a01ae2fe839b5210adb71ed6feaad335</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a01ae2fe839b5210adb71ed6feaad335">260bf6f2831f5210adb71ed6feaad360</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 16:44:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

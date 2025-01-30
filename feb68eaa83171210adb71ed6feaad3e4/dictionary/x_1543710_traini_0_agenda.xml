@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5e59c2ae83171210adb71ed6feaad3b9" label="Agenda" max_length="40" name="x_1543710_traini_0_agenda" type="collection">
-        <element default="0" label="Capacity" max_length="40" name="capacity" type="integer"/>
-        <element label="Name and Date" max_length="250" name="name_and_date" type="string"/>
-        <element choice="1" dependent="instructor_group" dependent_on_field="instructor_group" label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference" use_dependent_field="true">
+        <element label="Maximum Capacity" max_length="40" name="maximum_capacity" type="integer"/>
+        <element label="Available Seats" max_length="40" name="capacity" type="integer"/>
+        <element display="true" label="Name and Date" max_length="250" name="name_and_date" type="string"/>
+        <element choice="1" label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="javascript: new TrainingUtils().getInstructorUser();" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
             <choice/>
         </element>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
-        <element choice="1" display="true" label="Course" max_length="32" name="course" reference="x_1543710_traini_0_course" type="reference">
+        <element choice="1" label="Course" max_length="32" name="course" reference="x_1543710_traini_0_course" type="reference">
             <choice/>
         </element>
-        <element label="Instructor Group" max_length="250" name="instructor_group" reference="sys_user_group" reference_qual="javascript: &quot;name=&quot;+current.course.name" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element choice="3" default="2" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="3"/>
+                <element inactive_on_update="false" label="Open" value="2"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="course"/>
         </index>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="instructor_group" table="x_1543710_traini_0_agenda">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>2</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Instructor Group</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>javascript: "name=Training Instructors"</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instructor_group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>250</max_length>
+        <name>x_1543710_traini_0_agenda</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user_group">sys_user_group</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 20:35:32</sys_created_on>
+        <sys_id>e996eea283d71210adb71ed6feaad317</sys_id>
+        <sys_name>Instructor Group</sys_name>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_update_name>sys_dictionary_x_1543710_traini_0_agenda_instructor_group</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 12:09:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</application>
+        <file_path/>
+        <instance_id>7b9c9ce41b1d8e50168f4089bd4bcb3a</instance_id>
+        <instance_name>dev251162</instance_name>
+        <name>sys_dictionary_x_1543710_traini_0_agenda_instructor_group</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="instructor_group" table="x_1543710_traini_0_agenda"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>2</choice><choice_field/><choice_table/><column_label>Instructor Group</column_label><comments/><create_roles/><default_value>javascript: "name=Training Instructors"</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>instructor_group</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>250</max_length><name>x_1543710_traini_0_agenda</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user_group">sys_user_group</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 20:35:32</sys_created_on><sys_id>e996eea283d71210adb71ed6feaad317</sys_id><sys_name>Instructor Group</sys_name><sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package><sys_policy/><sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope><sys_update_name>sys_dictionary_x_1543710_traini_0_agenda_instructor_group</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-28 12:09:34</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>true</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1785401746</payload_hash>
+        <record_name>Agenda.Instructor Group</record_name>
+        <reverted_from/>
+        <source>bd75eaee83971210adb71ed6feaad31a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 12:09:34</sys_created_on>
+        <sys_id>ff5cf13683d75210adb71ed6feaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194acd122ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 12:09:34</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>b35cf136e8d75210f0df647838a68206</update_guid>
+        <update_guid_history>b35cf136e8d75210f0df647838a68206:1785401746,048288365b9f1210ed7e1f8b00c3bee6:-1235328692,f752cc36459f12107e2e4f81c55a59e1:-746264277,e0abb7eaef5f1210636d07c3430d6298:676151843,14eab32a465f1210ab9e2cc5d59df38b:929830811,75d9bf2a725f121011cf07421a0f1c7f:-388072789,d455c3aaaa5b1210f961a10d739e1ec7:-1650700402,d2158f6a545b12108cd4612eab16f9bb:929830811,2cb4476a185b12107946e0e76da91ac1:1729832587,f234c7e62b5b1210c9cbb6439e47cc1d:1682370738,3a0307e6b05b1210f5ed7832eb957a0a:1948980535,c97247a6c95b121070c62f08d9502e62:1465110524,8412cf66635b1210f50e65b7f4ea10d4:929830811,122f7e225d5b12100ca234046fa25402:-2005056542,880d76ee271b1210bcb7cbfa96aa84f7:929830811,3c1cb2ae3a1b121079c87589bcbd30f5:-1643027962,ce7532a64a1b1210170d12d90470d6ba:929830811,c6333ae25b1b12106048e8d8bea48b07:-779289976,8b23b6e24d1b12101d042b6fd8b07c4a:94022437,f9f2f6a20b1b1210a6388ffea1e3a61b:-1916282652,0d2e226e02d712100a694d5857a20e0f:-1873156246,fd96eea2bed71210c5d514d655f9149d:-854241029,2196eea2b0d71210ac142d10888baf96:1302277790</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 12:35:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>2e9655783f6e49488448bd192cbc4d01</sys_id>
+        <sys_metadata>e996eea283d71210adb71ed6feaad317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instructor Group</sys_name>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_parent display_value="Agenda">5e59c2ae83171210adb71ed6feaad3b9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_scope_delete display_value="">3870fcc8dd2b4d128e2fa67810bb0fe1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1543710_traini_0_agenda_instructor_group</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1543710_traini_0_agenda_instructor_group">ff5cf13683d75210adb71ed6feaad306</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 12:35:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

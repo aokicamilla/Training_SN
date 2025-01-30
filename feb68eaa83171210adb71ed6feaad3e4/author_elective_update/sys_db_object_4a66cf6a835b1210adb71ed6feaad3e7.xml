@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>x_1543710_traini_0_m2m_Courses_Users_Courses</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1543710_traini_0_m2m_x_1543710_tr_sys_user</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 22:54:34</sys_created_on>
+        <sys_id>4a66cf6a835b1210adb71ed6feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Traini 0 M2m X 1543710 Tr Sys User</sys_name>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_update_name>sys_db_object_4a66cf6a835b1210adb71ed6feaad3e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 22:54:34</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</application>
+        <file_path/>
+        <instance_id>7b9c9ce41b1d8e50168f4089bd4bcb3a</instance_id>
+        <instance_name>dev251162</instance_name>
+        <name>sys_db_object_4a66cf6a835b1210adb71ed6feaad3e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>x_1543710_traini_0_m2m_Courses_Users_Courses</label><live_feed_enabled>false</live_feed_enabled><name>x_1543710_traini_0_m2m_x_1543710_tr_sys_user</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 22:54:34</sys_created_on><sys_id>4a66cf6a835b1210adb71ed6feaad3e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Traini 0 M2m X 1543710 Tr Sys User</sys_name><sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package><sys_policy/><sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope><sys_update_name>sys_db_object_4a66cf6a835b1210adb71ed6feaad3e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-27 22:54:34</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>790576189</payload_hash>
+        <record_name>x_1543710_traini_0_m2m_Courses_Users_Courses</record_name>
+        <reverted_from/>
+        <source>bd75eaee83971210adb71ed6feaad31a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 22:54:35</sys_created_on>
+        <sys_id>92664bea835b1210adb71ed6feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a9f94a700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 22:54:35</sys_updated_on>
+        <type>Table</type>
+        <update_guid>d6664bea385b1210f33b1342ad09f7e6</update_guid>
+        <update_guid_history>d6664bea385b1210f33b1342ad09f7e6:790576189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 00:32:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>46a77d4f18c947ccb8c33f949249c904</sys_id>
+        <sys_metadata>4a66cf6a835b1210adb71ed6feaad3e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Traini 0 M2m X 1543710 Tr Sys User</sys_name>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_scope_delete display_value="">3870fcc8dd2b4d128e2fa67810bb0fe1</sys_scope_delete>
+        <sys_update_name>sys_db_object_4a66cf6a835b1210adb71ed6feaad3e7</sys_update_name>
+        <sys_update_version display_value="sys_db_object_4a66cf6a835b1210adb71ed6feaad3e7">92664bea835b1210adb71ed6feaad3e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 00:32:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

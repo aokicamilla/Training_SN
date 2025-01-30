@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1543710_traini_0.UsersUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>UsersUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var UsersUtils = Class.create();
+UsersUtils.prototype = {
+    initialize: function() {
+    },
+
+    referenceQualifierCourses: function() {
+        var coursesNotToBeShown = [];
+        var grRegistration = new GlideRecord('x_1543710_traini_0_registration');
+        grRegistration.addEncodedQuery('opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe');
+        grRegistration.query();
+        while (grRegistration.next()) {
+            coursesNotToBeShown.push(grRegistration.course.sys_id.toString());
+        }
+
+        var filteredAgenda = [];
+        var grAgenda = new GlideRecord('x_1543710_traini_0_agenda');
+        grAgenda.query();
+        
+        while (grAgenda.next()) {
+            // Verificando se o curso da agenda não está na lista de cursos que não devem ser mostrados
+            if (coursesNotToBeShown.indexOf(grAgenda.course.sys_id.toString()) == -1) {
+                filteredAgenda.push(grAgenda.sys_id.toString());
+            }
+        }
+        // Retorna a string formatada para o Reference Qualifier
+        return "sys_idIN" + filteredAgenda.join(',');
+    },
+	type: 'UsersUtils'
+};
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 13:43:04</sys_created_on>
+        <sys_id>2fae0a7e831b5210adb71ed6feaad31f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>UsersUtils</sys_name>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_update_name>sys_script_include_2fae0a7e831b5210adb71ed6feaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 16:43:40</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>2fae0a7e831b5210adb71ed6feaad31f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 13:43:03</sys_created_on>
+        <sys_id>95c1dafe831b5210adb71ed6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 13:43:03</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</application>
+        <file_path/>
+        <instance_id>7b9c9ce41b1d8e50168f4089bd4bcb3a</instance_id>
+        <instance_name>dev251162</instance_name>
+        <name>sys_script_include_2fae0a7e831b5210adb71ed6feaad31f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_1543710_traini_0.UsersUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;UsersUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var UsersUtils = Class.create();
+UsersUtils.prototype = {
+    initialize: function() {
+    },
+
+    referenceQualifierCourses: function() {
+        var coursesNotToBeShown = [];
+        var grRegistration = new GlideRecord('x_1543710_traini_0_registration');
+        grRegistration.addEncodedQuery('opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe');
+        grRegistration.query();
+        while (grRegistration.next()) {
+            coursesNotToBeShown.push(grRegistration.course.sys_id.toString());
+        }
+
+        var filteredAgenda = [];
+        var grAgenda = new GlideRecord('x_1543710_traini_0_agenda');
+        grAgenda.query();
+        
+        while (grAgenda.next()) {
+            // Verificando se o curso da agenda não está na lista de cursos que não devem ser mostrados
+            if (coursesNotToBeShown.indexOf(grAgenda.course.sys_id.toString()) == -1) {
+                filteredAgenda.push(grAgenda.sys_id.toString());
+            }
+        }
+        // Retorna a string formatada para o Reference Qualifier
+        return "sys_idIN" + filteredAgenda.join(',');
+    },
+	type: 'UsersUtils'
+};
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-28 13:43:04&lt;/sys_created_on&gt;&lt;sys_id&gt;2fae0a7e831b5210adb71ed6feaad31f&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;UsersUtils&lt;/sys_name&gt;&lt;sys_package display_value="Training System" source="x_1543710_traini_0"&gt;feb68eaa83171210adb71ed6feaad3e4&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Training System"&gt;feb68eaa83171210adb71ed6feaad3e4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_2fae0a7e831b5210adb71ed6feaad31f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-28 16:43:40&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;2fae0a7e831b5210adb71ed6feaad31f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-28 13:43:03&lt;/sys_created_on&gt;&lt;sys_id&gt;95c1dafe831b5210adb71ed6feaad382&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-28 13:43:03&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-332372904</payload_hash>
+        <record_name>UsersUtils</record_name>
+        <reverted_from/>
+        <source>bd75eaee83971210adb71ed6feaad31a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 16:43:40</sys_created_on>
+        <sys_id>3a1b7eb2831f5210adb71ed6feaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194adcc14560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 16:43:40</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>3e1b7eb2aa1f521016c37f40b32a0fc6</update_guid>
+        <update_guid_history>3e1b7eb2aa1f521016c37f40b32a0fc6:-332372904,e948d27af75b5210e97db911c4f16f3a:2048182151,2c851e76115b52105832a90e3641bb0b:-1125410724,5ea416f2fd5b5210aad28a5af735b96a:1236357710,1dc196328f5b52106ae388f2214ed898:2012563259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:43:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1438c52b44d246dc896909fdd0f3a590</sys_id>
+        <sys_metadata>2fae0a7e831b5210adb71ed6feaad31f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UsersUtils</sys_name>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_scope_delete display_value="">3870fcc8dd2b4d128e2fa67810bb0fe1</sys_scope_delete>
+        <sys_update_name>sys_script_include_2fae0a7e831b5210adb71ed6feaad31f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_2fae0a7e831b5210adb71ed6feaad31f">3a1b7eb2831f5210adb71ed6feaad3c7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:43:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
