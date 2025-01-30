@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Date </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+
+	var today = new Date()
+	var dateField = g_form.getValue('date')
+	// var parts = dateField.split('/')
+	// dateField = "20"+ parts[2] + "-" + parts[1] + "-" + parts[0]
+
+	if (dateField.getTime()<today.getTime()) {
+		g_form.addErrorMessage("Choose a date from today on")
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 12:27:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bd2942b835b1610adb71ed6feaad3b1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Validate Date </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_update_name>sys_script_client_8bd2942b835b1610adb71ed6feaad3b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 12:30:01</sys_updated_on>
+        <table>x_1543710_traini_0_agenda</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</application>
+        <file_path/>
+        <instance_id>7b9c9ce41b1d8e50168f4089bd4bcb3a</instance_id>
+        <instance_name>dev251162</instance_name>
+        <name>sys_script_client_8bd2942b835b1610adb71ed6feaad3b1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;date&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate Date &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+
+	var today = new Date()
+	var dateField = g_form.getValue('date')
+	// var parts = dateField.split('/')
+	// dateField = "20"+ parts[2] + "-" + parts[1] + "-" + parts[0]
+
+	if (dateField.getTime()&lt;today.getTime()) {
+		g_form.addErrorMessage("Choose a date from today on")
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 12:27:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8bd2942b835b1610adb71ed6feaad3b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Date &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Training System" source="x_1543710_traini_0"&gt;feb68eaa83171210adb71ed6feaad3e4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training System"&gt;feb68eaa83171210adb71ed6feaad3e4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_8bd2942b835b1610adb71ed6feaad3b1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 12:30:01&lt;/sys_updated_on&gt;&lt;table&gt;x_1543710_traini_0_agenda&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1795534243</payload_hash>
+        <record_name>Validate Date </record_name>
+        <reverted_from/>
+        <source>bd75eaee83971210adb71ed6feaad31a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 12:30:01</sys_created_on>
+        <sys_id>7a3410ab835b1610adb71ed6feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b73092930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 12:30:01</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>fe3410ab6c5b1610fa9e9083f575d9eb</update_guid>
+        <update_guid_history>fe3410ab6c5b1610fa9e9083f575d9eb:-1795534243,7d24dc6b585b161006ac92a082ba4926:-1149083481,83049c6b195b1610fce96c10d89bd982:-30052920,30e310a7625b1610bcf979cbe4913ca6:-945943588,c0c3dca7db5b1610ad2deef739f2c2db:-1280286475</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 12:34:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2792d6a1e61448f8b270c368e6329484</sys_id>
+        <sys_metadata>8bd2942b835b1610adb71ed6feaad3b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Date </sys_name>
+        <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+        <sys_parent display_value="Agenda">5e59c2ae83171210adb71ed6feaad3b9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+        <sys_scope_delete display_value="">3870fcc8dd2b4d128e2fa67810bb0fe1</sys_scope_delete>
+        <sys_update_name>sys_script_client_8bd2942b835b1610adb71ed6feaad3b1</sys_update_name>
+        <sys_update_version display_value="sys_script_client_8bd2942b835b1610adb71ed6feaad3b1">7a3410ab835b1610adb71ed6feaad3ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 12:34:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
