@@ -30,8 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous ) {
 
     var grAgenda = new GlideRecord('x_1543710_traini_0_agenda');
-    grAgenda.addQuery('course', current.course);
-    grAgenda.addQuery('date', current.date);
+    grAgenda.addQuery('sys_id', current.agenda.sys_id);
     grAgenda.query(); 
 
     while(grAgenda.next()) {
@@ -48,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1add949383d7d210adb71ed6feaad3df</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>After delete a registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
@@ -56,7 +55,7 @@
         <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
         <sys_update_name>sys_script_1add949383d7d210adb71ed6feaad3df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 18:56:51</sys_updated_on>
+        <sys_updated_on>2025-01-30 17:43:12</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

@@ -4,125 +4,153 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-29 20:42:36</sys_created_on>
-            <sys_id>b06bb8d7835bd210adb71ed6feaad316</sys_id>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>f636aae383575610adb71ed6feaad39c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">a3c7fc93835bd210adb71ed6feaad3b7</sys_ui_formatter>
             <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 20:42:36</sys_updated_on>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>agenda</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-29 20:42:37</sys_created_on>
-            <sys_id>bc6bb8d7835bd210adb71ed6feaad316</sys_id>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7a36aae383575610adb71ed6feaad39d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 20:42:37</sys_updated_on>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7236aae383575610adb71ed6feaad39e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>agenda</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-29 20:42:37</sys_created_on>
-            <sys_id>b46bb8d7835bd210adb71ed6feaad317</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 20:42:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>course</element>
+            <element>assigned_to</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-29 20:42:37</sys_created_on>
-            <sys_id>bc6bb8d7835bd210adb71ed6feaad317</sys_id>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7a36aae383575610adb71ed6feaad39e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 20:42:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-29 20:42:37</sys_created_on>
-            <sys_id>b46bb8d7835bd210adb71ed6feaad318</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 20:42:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-29 20:42:37</sys_created_on>
-            <sys_id>746bb8d7835bd210adb71ed6feaad325</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 20:42:37</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-29 20:42:37</sys_created_on>
-            <sys_id>7c6bb8d7835bd210adb71ed6feaad325</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 20:42:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-29 20:42:37</sys_created_on>
-            <sys_id>746bb8d7835bd210adb71ed6feaad326</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 20:42:37</sys_updated_on>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_by</element>
-            <position>8</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-29 20:42:37</sys_created_on>
-            <sys_id>7c6bb8d7835bd210adb71ed6feaad326</sys_id>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7236aae383575610adb71ed6feaad39f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 20:42:37</sys_updated_on>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>course</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7a36aae383575610adb71ed6feaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7236aae383575610adb71ed6feaad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7a36aae383575610adb71ed6feaad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7236aae383575610adb71ed6feaad3a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7a36aae383575610adb71ed6feaad3a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>instructor</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 23:07:54</sys_created_on>
+            <sys_id>7236aae383575610adb71ed6feaad3a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Registration" display_value="Registration" name="x_1543710_traini_0_registration" sys_domain="global" view="Default view">72f83817835bd210adb71ed6feaad38f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 23:07:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

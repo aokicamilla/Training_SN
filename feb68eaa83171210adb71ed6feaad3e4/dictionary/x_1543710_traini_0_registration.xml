@@ -3,6 +3,8 @@
         <element label="Course" max_length="250" name="course" reference="x_1543710_traini_0_course" type="reference"/>
         <element label="Agenda" max_length="40" name="agenda" reference="x_1543710_traini_0_agenda" type="reference"/>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
-        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <element choice="1" label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="javascript: new TrainingUtils().getInstructorUser();" type="reference" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
     </element>
 </database>

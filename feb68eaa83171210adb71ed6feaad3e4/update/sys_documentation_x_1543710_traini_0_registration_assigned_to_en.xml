@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="assigned_to" label="Requested for (by admin)" language="en" table="x_1543710_traini_0_registration">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <help/>
+            <hint/>
+            <label>Requested for (by admin)</label>
+            <language>en</language>
+            <name>x_1543710_traini_0_registration</name>
+            <plural>Requested for (by admin)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 17:50:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested for (by admin)</sys_name>
+            <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
+            <sys_update_name>sys_documentation_x_1543710_traini_0_registration_assigned_to_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 17:50:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

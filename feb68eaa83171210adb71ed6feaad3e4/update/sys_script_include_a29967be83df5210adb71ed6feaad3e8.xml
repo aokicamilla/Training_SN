@@ -33,10 +33,11 @@ TrainingUtils.prototype = {
         var grRegistration = new GlideRecord('x_1543710_traini_0_registration');
         grRegistration.addEncodedQuery('opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe');
         grRegistration.query();
+        
 
-        while (grRegistration.next()) {
-            var courseId = grRegistration.agenda.course.sys_id.toString();
 
+       while (grRegistration.next()) {
+			var courseId = grRegistration.agenda.course.sys_id.toString()
             coursesNotToBeShown.push(grRegistration.agenda.sys_id.toString());
 
             if (!courseCount[courseId]) {
@@ -54,12 +55,15 @@ TrainingUtils.prototype = {
         grAgenda.query();
 
         while (grAgenda.next()) {
+			var scheduleCourseId = grAgenda.course.sys_id.toString();
+ 
             if (coursesNotToBeShown.indexOf(grAgenda.getUniqueValue()) == -1) {
-                if(!courseCount[courseId] || courseCount[courseId] < 3) {
+                if(!courseCount[scheduleCourseId] || courseCount[scheduleCourseId] < 3) {
                 filteredAgenda.push("sys_id=" + grAgenda.getUniqueValue().toString() + "^OR");
                 }
             }
         }
+
 
         if (filteredAgenda.join('').slice(0, -3) == '') {
             return "instructor=c8bcbe5d39";
@@ -74,14 +78,14 @@ TrainingUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-28 20:07:36</sys_created_on>
         <sys_id>a29967be83df5210adb71ed6feaad3e8</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>TrainingUtils</sys_name>
         <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
         <sys_update_name>sys_script_include_a29967be83df5210adb71ed6feaad3e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 15:15:12</sys_updated_on>
+        <sys_updated_on>2025-01-30 22:36:21</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>a29967be83df5210adb71ed6feaad3e8</id>
