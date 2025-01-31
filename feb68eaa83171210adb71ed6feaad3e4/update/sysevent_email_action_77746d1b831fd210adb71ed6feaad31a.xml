@@ -36,7 +36,9 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Good Morning! This is your students for today!</p>
+        <message_html><![CDATA[<p>Good Morning ${instructor.name}!&nbsp;</p>
+<p>This is your students for today!</p>
+<p>Please remind to access the link logged in your instructor account to see the information!</p>
 <p>Click in the link:</p>
 <p><a href="https://dev251162.service-now.com/now/platform-analytics-workspace/dashboards/params/edit/true/sys-id/437361d7831fd210adb71ed6feaad30d" target="_blank" rel="noopener">Report</a></p>]]></message_html>
         <message_list/>
@@ -60,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>77746d1b831fd210adb71ed6feaad31a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Students for today</sys_name>
         <sys_overrides/>
         <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
@@ -68,7 +70,7 @@
         <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
         <sys_update_name>sysevent_email_action_77746d1b831fd210adb71ed6feaad31a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 00:04:59</sys_updated_on>
+        <sys_updated_on>2025-01-31 12:34:01</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
