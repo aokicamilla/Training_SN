@@ -7,7 +7,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Trainings">4f2f2bea831f1210adb71ed6feaad307</category>
-        <checked_out/>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -84,19 +84,19 @@
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-28 01:55:40</sys_created_on>
         <sys_id>d1cfa72e831f1210adb71ed6feaad3d8</sys_id>
-        <sys_mod_count>99</sys_mod_count>
+        <sys_mod_count>102</sys_mod_count>
         <sys_name>Register in a training session</sys_name>
         <sys_package display_value="Training System" source="x_1543710_traini_0">feb68eaa83171210adb71ed6feaad3e4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training System">feb68eaa83171210adb71ed6feaad3e4</sys_scope>
         <sys_update_name>sc_cat_item_producer_d1cfa72e831f1210adb71ed6feaad3d8</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-29 23:02:33</sys_updated_on>
+        <sys_updated_on>2025-03-06 14:04:08</sys_updated_on>
         <table_name>x_1543710_traini_0_registration</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>99</version>
+        <version>102</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
